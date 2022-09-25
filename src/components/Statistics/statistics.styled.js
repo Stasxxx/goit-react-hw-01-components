@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-width: 300px;
+width: 350px;
 margin: 15px auto;
 `
 
@@ -13,7 +13,12 @@ text-align: center;
 export const StatList = styled.ul`
 display: flex;
 list-style: none;
-/* justify-content:left; */
+   
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    gap: 15px;
 `;
 
 export const Item = styled.li`
