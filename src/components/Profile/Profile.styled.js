@@ -2,7 +2,12 @@ import styled from "styled-components";
 
 export const Card = styled.div`
 padding: 10px;
-
+width: 300px;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 5px;
+border: 1px solid darkblue;
 `;
 export const Description = styled.div`
 padding: 8px;

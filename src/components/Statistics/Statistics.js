@@ -1,9 +1,9 @@
-import {Heading, StatList, Item, Label, Percentage} from './statistics.styled'
+import {Section, Heading, StatList, Item, Label, Percentage} from './Statistics.styled'
 
 export const Statistics = ({title, stats }) => {
 
     return (
-<section>
+<Section>
   {title === "Upload stats" ?
     (<Heading>{title}</Heading>) : ""}
   
@@ -14,6 +14,6 @@ export const Statistics = ({title, stats }) => {
         <Percentage>{item.percentage}%</Percentage>
       </Item>)}
   </StatList>
-</section>);
+</Section>);
     
 };
