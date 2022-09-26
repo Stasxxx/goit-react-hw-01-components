@@ -37,8 +37,21 @@ gap: 5px;
 
 box-shadow: 16px 17px 16px -10px rgba(0, 5, 9, 0.72);
 background-color: ${getRandomHexColor()};
+  &:nth-child(1) {
+  background-color: ${getRandomHexColor()};
+    };
 
+    &:nth-child(2) {
+  background-color: ${getRandomHexColor()};
+    };
 
+    &:nth-child(3) {
+  background-color: ${getRandomHexColor()};
+    };
+    
+    &:nth-child(4) {
+  background-color: ${getRandomHexColor()};
+    };
 `;
 
 export const Label = styled.span`
